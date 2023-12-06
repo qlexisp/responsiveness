@@ -1,0 +1,30 @@
+body {
+    font-family: "Courier";
+    color: white;
+    text-align: center;
+}
+h1 {
+    font-family: "Helvetica";
+    text-transform: uppercase;
+    font-size: 24px;
+    
+    color: #9EC8B9;
+}
+@media screen and (max-width: 480px) {
+    body {
+        background-color: #092635;
+    }
+}
+@media screen and (min-width: 480px) and (max-width: 1024px) {
+body {
+    background-color: #1B4242;
+    display: grid;
+    grid-template-columns: 2fr 1fr 3fr;
+    }
+}
+@media screen and (min-width: 1024px) {
+   body {
+    background-color: #5C8374;
+    display: flex;
+   }
+}
